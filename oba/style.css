@@ -1,0 +1,113 @@
+header {
+  border-bottom: thin solid #000000;
+  height: 7vh;
+}
+
+header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header nav a {
+  text-decoration: none;
+}
+
+header nav a img {
+  width: 40px;
+  height: 40px;
+}
+
+header nav a b {
+  font-size: 40px;
+  margin-left: 1000px;
+}
+
+section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+section #mm {
+  width: 50vh;
+  height: 80vh;
+  background-color: #4d4a4a;
+  text-align: center;
+  padding-top: 40px;
+  font-size: x-large;
+  -webkit-box-shadow: 1px 1px 10px #000000;
+          box-shadow: 1px 1px 10px #000000;
+  color: white;
+}
+
+section #mm #m {
+  text-align: left;
+  margin: 10px 10px;
+  padding: 10px 10px;
+}
+
+section #mm #m a {
+  color: white;
+}
+
+section #mm #m a :hover {
+  color: red;
+}
+
+section #mm1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: aliceblue;
+  width: 150vh;
+  height: 82vh;
+  padding: 10px 10px;
+}
+
+section #mm1 #mm2 {
+  width: 130vh;
+  height: 25vh;
+  margin: 10px auto;
+  -webkit-box-shadow: 0px 0px 4px #000000;
+          box-shadow: 0px 0px 4px #000000;
+  background-color: #c9c6c6;
+  padding: 10px 10px;
+}
+
+section a {
+  text-decoration: none;
+}
+
+section .mg {
+  width: 200px;
+  height: 200px;
+  border-radius: 40% 0%;
+}
+
+section button {
+  width: 120px;
+  height: 50px;
+  border-radius: 10%;
+  background-color: #e9d20a;
+}
+
+section .pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 40% 40%;
+}
+
+section #man {
+  margin: 50px auto;
+  text-align: center;
+}
+
+section b {
+  font-size: x-large;
+}
+/*# sourceMappingURL=style.css.map */
